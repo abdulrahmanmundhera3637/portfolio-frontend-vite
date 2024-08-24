@@ -20,7 +20,7 @@ const Contact = () => {
     }
     setIsSending(true);
     try {
-      const response = await axios.post("http://localhost:8080/api/send-email", {
+      const response = await axios.post("https://portfolio-backend-vite.vercel.app/api/send-email", {
         name,
         userEmail: email,
         message: msg,

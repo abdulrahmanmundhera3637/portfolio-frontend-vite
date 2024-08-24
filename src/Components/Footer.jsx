@@ -21,7 +21,7 @@ const Footer = () => {
 
     setIsSubscribing(true);
     try {
-      const response = await axios.post("http://localhost:8080/api/subcribe-email", {
+      const response = await axios.post("https://portfolio-backend-vite.vercel.app/api/subcribe-email", {
         email: subscribeEmail,
       });
 
