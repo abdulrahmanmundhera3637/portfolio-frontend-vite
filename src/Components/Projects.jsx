@@ -2,6 +2,7 @@ import React from "react";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
 
 
 const projects = [
@@ -28,6 +29,14 @@ const projects = [
       image: project3,
       github: "https://github.com/abdulrahmanmundhera3637/MERN-PORTFOLIO-APP",
       website: "https://my-personal-portfolio-frontend-qekm.vercel.app",
+    },
+    {
+      id: 4,
+      name: "Portfolio App",
+      technologies: "MERN Stack Vite",
+      image: project4,
+      github: "https://github.com/abdulrahmanmundhera3637/portfolio_With_Vite",
+      website: "https://portfolio-frontend-vite.vercel.app",
     },
   ];
   
