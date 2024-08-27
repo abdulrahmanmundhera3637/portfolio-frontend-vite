@@ -4,11 +4,10 @@ const Navbar = () => {
   const whatsappNumber = "923043637810"; 
 
   return (
-    <nav className='bg-black text-white px-8 md:px-16 lg:px-24'>
-      <div className='container py-2 flex justify-center md:justify-between items-center'>
-        
+    <nav className='bg-black text-white px-4 md:px-8 lg:px-24'>
+      <div className='container py-2 flex flex-wrap justify-between items-center'>
         <div className='text-2xl font-bold hidden md:inline'>Abdul Rahman</div>
-        <div className='space-x-6 '>
+        <div className='space-x-4 md:space-x-6 flex flex-wrap items-center'>
           <a href="/" className='hover:text-gray-400'>Home</a>
           <a href="#about" className='hover:text-gray-400'>About Me</a>
           <a href="#service" className='hover:text-gray-400'>Services</a>
@@ -23,7 +22,6 @@ const Navbar = () => {
         >
           Connect Me
         </a>
-       
       </div>
     </nav>
   )
