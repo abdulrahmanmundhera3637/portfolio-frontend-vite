@@ -38,6 +38,14 @@ const projects = [
       github: "https://github.com/abdulrahmanmundhera3637/portfolio_With_Vite",
       website: "https://portfolio-frontend-vite.vercel.app",
     },
+    {
+      id: 5,
+      name: "Culculator App",
+      technologies: "HTML,CSS,JavaScript",
+      image: project5,
+      github: "https://github.com/abdulrahmanmundhera3637/Calculator_App",
+      website: "https://calculator-app-one-rouge.vercel.app",
+    },
   ];
   
 
