@@ -4,6 +4,8 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
+
 
 const projects = [
   {
@@ -45,6 +47,14 @@ const projects = [
     image: project5,
     github: "https://github.com/abdulrahmanmundhera3637/Calculator_App",
     website: "https://calculator-app-one-rouge.vercel.app",
+  },
+  {
+    id: 6,
+    name: "Culculator App",
+    technologies: "HTML,CSS,JavaScript",
+    image: project6,
+    github: "https://github.com/abdulrahmanmundhera3637/Culculator2",
+    website: "https://culculator2.vercel.app",
   },
 ];
 
