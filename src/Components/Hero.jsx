@@ -3,7 +3,7 @@ import heroImg from "../assets/me.jpg";
 
 const Hero = () => {
   const phoneNumber = "+923043637810";
-  const resumeLink = "/Abdul-Rahman-CV.pdf"; 
+  const resumeLink = "/AbdulRahmanCv.pdf"; 
 
   return (
     <div className='bg-black text-white text-center py-4 md:py-12'>
